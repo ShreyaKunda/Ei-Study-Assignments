@@ -1,5 +1,7 @@
 # Shreya's Coding Assignments
 
+Welcome to my repository featuring two coding assignments focused on software design patterns and a Rocket Launch Simulator. This README outlines the objectives, functionality, and usage of each project.
+
 ## Table of Contents
 1. [Assignment 1: Design Patterns](#assignment-1-design-patterns)
     - [Behavioral Design Patterns](#behavioral-design-patterns)
@@ -9,47 +11,48 @@
     - [Overview](#overview)
     - [Functional Requirements](#functional-requirements)
     - [Usage](#usage)
-3. [Code Quality and Standards](#code-quality-and-standards)
-4. [Contact Information](#contact-information)
+
+
+---
 
 ## Assignment 1: Design Patterns
 
-This assignment demonstrates the understanding and application of various software design patterns through six unique use cases.
+This assignment demonstrates the application of various software design patterns through six unique use cases.
 
 ### Behavioral Design Patterns
-1. **Use Case 1:** [Description of your first behavioral design pattern use case]
-2. **Use Case 2:** [Description of your second behavioral design pattern use case]
+1. **Use Case 1:** [Brief description of your first behavioral design pattern use case]
+2. **Use Case 2:** [Brief description of your second behavioral design pattern use case]
 
 ### Creational Design Patterns
-1. **Use Case 1:** [Description of your first creational design pattern use case]
-2. **Use Case 2:** [Description of your second creational design pattern use case]
+1. **Use Case 1:** [Brief description of your first creational design pattern use case]
+2. **Use Case 2:** [Brief description of your second creational design pattern use case]
 
 ### Structural Design Patterns
-1. **Use Case 1:** [Description of your first structural design pattern use case]
-2. **Use Case 2:** [Description of your second structural design pattern use case]
+1. **Use Case 1:** [Brief description of your first structural design pattern use case]
+2. **Use Case 2:** [Brief description of your second structural design pattern use case]
 
 ---
 
 ## Assignment 2: Rocket Launch Simulator
 
 ### Overview
-The Rocket Launch Simulator is a terminal-based program designed to simulate the process of launching a rocket and placing a satellite into orbit. The simulator provides real-time updates on the rocket's status during the mission.
+The Rocket Launch Simulator is a terminal-based application that simulates the launch of a rocket and the subsequent placement of a satellite into orbit. The program provides real-time updates on the rocket's status throughout the mission.
 
 ### Functional Requirements
 1. **Pre-Launch Checks:** 
-   - User initiates checks by typing `start_checks`.
-   - The system outputs: "All systems are 'Go' for launch."
+   - Users initiate the pre-launch checks by typing `start_checks`.
+   - The system confirms: "All systems are 'Go' for launch."
   
 2. **Launch and Stage Updates:** 
-   - User starts the launch by typing `launch`.
-   - The terminal updates the stage, fuel, altitude, and speed every second.
+   - Users start the launch sequence by typing `launch`.
+   - The program updates the rocket's stage, fuel level, altitude, and speed every second.
 
 3. **Fast Forward:** 
-   - User can fast-forward the simulation by typing `fast_forward X`, where X is the number of seconds to advance.
-   - The program calculates and displays the updated parameters after X seconds.
+   - Users can advance the simulation by typing `fast_forward X`, where X is the number of seconds to skip.
+   - The simulator calculates and displays updated parameters after X seconds.
 
 ### Usage
-To run the simulator:
+To run the simulator, follow these steps:
 1. Clone the repository:
    ```bash
    git clone [repository-url]

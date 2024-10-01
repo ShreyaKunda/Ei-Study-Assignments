@@ -17,7 +17,7 @@ Welcome to the assignment repository with two coding assignments focused on soft
 
 ## Assignment 1: Design Patterns
 
-This below use cases depict the usage of various software design patterns through six use cases.
+The below use cases depict the usage of various software design patterns through six use cases.
 
 ### Behavioral Design Patterns
 1. **Use Case 1: Smart Home Command**

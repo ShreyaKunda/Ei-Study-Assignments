@@ -10,7 +10,7 @@ Welcome to the assignment repository with two coding assignments focused on soft
 2. [Assignment 2: Rocket Launch Simulator](#assignment-2-rocket-launch-simulator)
     - [Overview](#overview)
     - [Functional Requirements](#functional-requirements)
-    - [Usage](#running the rocket launch)
+    - [Usage](#usage)
 
 
 ---
@@ -113,7 +113,7 @@ The Rocket Launch Simulator is a terminal-based application that simulates the l
    - Users can advance the simulation by typing `fast_forward X`, where X is the number of seconds to skip.
    - The simulator calculates and displays updated parameters after X seconds.
 
-### Running the launch
+### Usage
 To run the rocket launch, follow these steps:
 1. Clone the repository:
    ```bash

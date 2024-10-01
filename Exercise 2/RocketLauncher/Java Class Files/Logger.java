@@ -3,7 +3,6 @@
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.
 
 public class Logger {
     private BufferedWriter writer;

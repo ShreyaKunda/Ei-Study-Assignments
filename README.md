@@ -1,6 +1,6 @@
 # Shreya's Coding Assignments
 
-Welcome to my repository featuring two coding assignments focused on software design patterns and a Rocket Launch Simulator. This README outlines the objectives, functionality, and usage of each project.
+Welcome to the assignment repository with two coding assignments focused on software design patterns and a Rocket Launch Simulator.
 
 ## Table of Contents
 1. [Assignment 1: Design Patterns](#assignment-1-design-patterns)
@@ -17,7 +17,7 @@ Welcome to my repository featuring two coding assignments focused on software de
 
 ## Assignment 1: Design Patterns
 
-This assignment demonstrates the application of various software design patterns through six unique use cases.
+This below use cases depict the usage of various software design patterns through six use cases.
 
 ### Behavioral Design Patterns
 1. **Use Case 1:** Smart Home Command - Pattern: Command Pattern
@@ -60,10 +60,16 @@ The Rocket Launch Simulator is a terminal-based application that simulates the l
 1. **Pre-Launch Checks:** 
    - Users initiate the pre-launch checks by typing `start_checks`.
    - The system confirms: "All systems are 'Go' for launch."
+     ![image](https://github.com/user-attachments/assets/b84fa91e-3ab1-4609-921f-9876d0d3f7d0)
+
   
 2. **Launch and Stage Updates:** 
    - Users start the launch sequence by typing `launch`.
    - The program updates the rocket's stage, fuel level, altitude, and speed every second.
+     ![image](https://github.com/user-attachments/assets/24884a24-7618-46ff-8196-5d9d67f35ffe)
+     ![image](https://github.com/user-attachments/assets/e9cc1564-381f-419c-83fa-6326c971b2e0)
+
+
 
 3. **Fast Forward:** 
    - Users can advance the simulation by typing `fast_forward X`, where X is the number of seconds to skip.

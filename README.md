@@ -20,16 +20,34 @@ Welcome to my repository featuring two coding assignments focused on software de
 This assignment demonstrates the application of various software design patterns through six unique use cases.
 
 ### Behavioral Design Patterns
-1. **Use Case 1:** [Brief description of your first behavioral design pattern use case]
-2. **Use Case 2:** [Brief description of your second behavioral design pattern use case]
+1. **Use Case 1:** Smart Home Command - Pattern: Command Pattern
+Description: This pattern encapsulates requests as objects, allowing for parameterizing clients with different requests, queueing requests, and logging them.
+Use Case: Automating smart home devices where commands can be queued or undone.
+
+
+2. **Use Case 2:** Stock Market - Pattern: Observer Pattern
+Description: The observer pattern allows an object to notify other objects when there is a state change.
+Use Case: Monitoring stock price changes and notifying subscribed traders.
 
 ### Creational Design Patterns
-1. **Use Case 1:** [Brief description of your first creational design pattern use case]
-2. **Use Case 2:** [Brief description of your second creational design pattern use case]
+1. **Use Case 1:** Database Connection - Pattern: Singleton Pattern
+Description: Ensures only one instance of a DatabaseConnection exists and provides a global point of access to it.
+Use Case: Managing a database connection pool efficiently in an application.
+
+
+2. **Use Case 2:** Vehicle Factory - Pattern: Factory Pattern
+Description: The factory pattern provides an interface for creating objects, allowing the instantiation of different types of vehicles (e.g., Car, Bike).
+Use Case: A vehicle dealership system that creates different types of vehicles based on user input.
 
 ### Structural Design Patterns
-1. **Use Case 1:** [Brief description of your first structural design pattern use case]
-2. **Use Case 2:** [Brief description of your second structural design pattern use case]
+1. **Use Case 1:** Company Hierarchy- Pattern: Composite Pattern
+Description: The composite pattern allows a hierarchy of objects where individual objects and compositions of objects are treated uniformly.
+Use Case: Managing a company's employee structure where managers can manage other employees.
+
+
+2. **Use Case 2:** Media Player - Pattern: Adapter Pattern
+Description: The adapter pattern allows a media player to support multiple formats by adapting one interface to another.
+Use Case: Playing various media formats (e.g., MP4, MP3) using a single media player interface.
 
 ---
 

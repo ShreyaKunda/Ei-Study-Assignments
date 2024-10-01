@@ -20,33 +20,33 @@ Welcome to the assignment repository with two coding assignments focused on soft
 This below use cases depict the usage of various software design patterns through six use cases.
 
 ### Behavioral Design Patterns
-1. **Use Case 1:** 
-**Smart Home Command**
-Pattern: Command Pattern
-Description: This pattern encapsulates requests as objects, allowing for parameterizing clients with different requests, queueing requests, and logging them.
-Use Case: Automating smart home devices where commands can be queued or undone.
+1. **Use Case 1: Smart Home Command**
+
+**Pattern**: Command Pattern
+**Description**: This pattern turns requests into objects, making it possible to queue, log, and undo them.
+**Example**: Controlling smart home devices where commands (like turning lights on/off) can be queued or undone.
 
 ![WhatsApp Image 2024-10-01 at 15 34 13_cdd0bae5](https://github.com/user-attachments/assets/1e28c00d-985e-4f53-ac09-dab1f8bf2ea8)
 
 
 
 
-2. **Use Case 2:** 
-**Stock Market **
-Pattern: Observer Pattern
-Description: The observer pattern allows an object to notify other objects when there is a state change.
-Use Case: Monitoring stock price changes and notifying subscribed traders.
+2. **Use Case 2: Stock Market**
+
+**Pattern**: Observer Pattern
+**Description**: This pattern lets one object notify others about changes in its state.
+**Example**: Tracking stock prices and alerting traders when prices change.
 
 ![WhatsApp Image 2024-10-01 at 15 32 01_6d63801f](https://github.com/user-attachments/assets/6b9c6c35-c766-48b2-9f23-c84cfa9d475e)
 
 
 
 ### Creational Design Patterns
-1. **Use Case 1:** 
-**Database Connection**
-Pattern: Singleton Pattern
-Description: Ensures only one instance of a DatabaseConnection exists and provides a global point of access to it.
-Use Case: Managing a database connection pool efficiently in an application.
+1. **Use Case 1: Database Connection**
+
+**Pattern**: Singleton Pattern
+**Description**: This pattern ensures that only one instance of a class exists and provides a global access point to it.
+**Example**: Managing a single database connection in an application
 
 ![WhatsApp Image 2024-10-01 at 15 34 41_f86b9c91](https://github.com/user-attachments/assets/7b61951f-8e42-477f-b4d9-25c037610251)
 
@@ -65,21 +65,21 @@ Use Case: A vehicle dealership system that creates different types of vehicles b
 ### Structural Design Patterns
 
 
-1. **Use Case 1:**
-**Company Hierarchy**
-Pattern: Composite Pattern
-Description: The composite pattern allows a hierarchy of objects where individual objects and compositions of objects are treated uniformly.
-Use Case: Managing a company's employee structure where managers can manage other employees.
+1. **Use Case 2: Vehicle Factory**
+
+**Pattern**: Factory Pattern
+**Description**: This pattern provides an interface for creating objects, allowing the creation of different types (like cars or bikes).
+**Example**: A vehicle dealership system where the user can select the type of vehicle they want to create
 
 ![WhatsApp Image 2024-10-01 at 15 36 47_e3dbaae3](https://github.com/user-attachments/assets/df3cb38a-8530-48e7-90f5-0734e327678b)
 
 
 
-3. **Use Case 2:**
-  **Media Player**
-Pattern: Adapter Pattern
-Description: The adapter pattern allows a media player to support multiple formats by adapting one interface to another.
-Use Case: Playing various media formats (e.g., MP4, MP3) using a single media player interface.
+3. **Use Case 2: Media Player**
+
+**Pattern**: Adapter Pattern
+**Description**: This pattern allows different interfaces to work together.
+**Example**: A media player that can play multiple formats (e.g., MP3, MP4) using a common interface.
 
 ![WhatsApp Image 2024-10-01 at 15 37 45_92f28b7a](https://github.com/user-attachments/assets/06b74ed2-b40c-4827-ac0e-39e282760348)
 
@@ -89,7 +89,7 @@ Use Case: Playing various media formats (e.g., MP4, MP3) using a single media pl
 ## Assignment 2: Rocket Launch Simulator
 
 ### Overview
-The Rocket Launch Simulator is a terminal-based application that simulates the launch of a rocket and the subsequent placement of a satellite into orbit. The program provides real-time updates on the rocket's status throughout the mission.
+This terminal-based simulator mimics a rocket launch and the deployment of a satellite into orbit. The program provides real-time updates on the rocket's status during the mission.
 
 ### Functional Requirements
 1. **Pre-Launch Checks:** 

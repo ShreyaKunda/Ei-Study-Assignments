@@ -52,8 +52,7 @@ The below use cases depict the usage of various software design patterns through
 
 
 
-3. **Use Case 2:** 
-**Vehicle Factory**
+2. **Use Case 2: Vehicle Factory**
 Pattern: Factory Pattern
 Description: The factory pattern provides an interface for creating objects, allowing the instantiation of different types of vehicles (e.g., Car, Bike).
 Use Case: A vehicle dealership system that creates different types of vehicles based on user input.
@@ -65,17 +64,16 @@ Use Case: A vehicle dealership system that creates different types of vehicles b
 ### Structural Design Patterns
 
 
-1. **Use Case 2: Vehicle Factory**
-
-**Pattern**: Factory Pattern
-**Description**: This pattern provides an interface for creating objects, allowing the creation of different types (like cars or bikes).
-**Example**: A vehicle dealership system where the user can select the type of vehicle they want to create
+1. **Use Case: Employee Management System**
+Pattern: Composite Pattern
+Description: This pattern allows for the creation of a tree structure where individual objects (employees) and compositions of objects (departments) can be treated uniformly. It facilitates the management of hierarchical relationships, enabling operations on both single objects and groups of objects.
+Example: An organizational chart where a CEO manages department heads, who in turn manage their respective employees. This setup allows for easy addition, removal, and retrieval of employees in a corporate structure.
 
 ![WhatsApp Image 2024-10-01 at 15 36 47_e3dbaae3](https://github.com/user-attachments/assets/df3cb38a-8530-48e7-90f5-0734e327678b)
 
 
 
-3. **Use Case 2: Media Player**
+2. **Use Case 2: Media Player**
 
 **Pattern**: Adapter Pattern
 **Description**: This pattern allows different interfaces to work together.
